@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/css/sb-admin-2-min.css" />
+    
+    <link rel="stylesheet" href="/css/styles_cart.css" />
+  </head>
+  <body>
+    <nav
+          class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="/paginas/index.html"><b>Stock of Shop</b></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/paginas/index.html">Catalogo de Produtos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/paginas/produtos_sem_estoque.html">Produtos Sem Estoque</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/paginas/novos_produtos.html">Produtos Novos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/paginas/pedidos.html">Lista de Pedidos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/paginas/devolvidos.html">Produtos de Devolução</a>
+                </li>
+              </ul>
+              <div class="align-self-end">
+                <ul class="navbar-nav">
+                  <!-- <li class="nav-item">
+                    <a href="/pedidos.html" class="nav-link text-white"
+                      >Lista de Pedidos</a
+                    >
+                  </li> -->
+
+                  <li class="nav-item">
+                    <span
+                      class="badge rounded-pill bg-light text-danger position-absolute ms-0 mt-0"
+                      title="5"
+                      ><small>
+                          <span id="itemCount">0</span>                       
+                      </small></span
+                    >
+                    <a href="/paginas/compra.html" class="nav-link text-white">
+                      <i
+                        class="bi-cart"
+                        style="font-size: 25px; line-height: 12px"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+    <h1>Carrinho de Compras</h1>
+
+    <div class="cart">
+      
+      <!-- Lista de produtos no carrinho será preenchida com JavaScript -->
+    </div>
+       <li class="list-group-item py-3">
+                        <div class="text-end">
+                          <h4 class="text-dark mb-3">
+                            <span id="itemSum">R$0.00</span> 
+                          </h4>
+                          <button class="btn btn-outline-success btn-lg" id="clearCartButton">Limpar Carrinho</button>
+                            <a href="/paginas/index.html" class="btn btn-outline-success btn-lg">
+                                Continuar Comprando                            
+                            </a>
+                            <a href="/paginas/checkout.html" class="btn btn-danger btn-lg ms-2 mt-xs-3">Fechar Compra</a>
+
+                        </div>
+
+
+                    </li>
+    </div>
+    <script src="/js/script_cart.js"></script>
+
+  </body>
+</html>
