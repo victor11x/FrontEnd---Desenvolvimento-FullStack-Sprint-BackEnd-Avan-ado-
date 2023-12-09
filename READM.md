@@ -8,7 +8,7 @@ O meu projeto de MVP atende uma necessidade de segmento logistico, Super Portal 
 
 # Arquitetura da Aplicação
 
-Projeto foi construido uma arquitura de Microserviço. Este repositorio faz parte do BLOCO A que está em microserviço de de Front-End Super Portal Gestor Estoque que consta todos produtos devolvidos pelo cliente. Imagem abaixo apresenta desenho da arquitetura do projeto .
+Projeto foi construido uma arquitetura de Microserviço. Este repositorio faz parte do BLOCO A que está em microserviço de de Front-End Super Portal Gestor Estoque que consta todos produtos devolvidos pelo cliente. Imagem abaixo apresenta desenho da arquitetura do projeto .
 
 <div align="center">
 <h4>Diagrama da Arquitetura Microserviço</h4>
